@@ -1,0 +1,40 @@
+sort1 uses: Bubble sort
+Res:
+-Random5000=0.039s
+-Random10000=0.184s
+-Random50000=6.22s
+-Reversed5000=0.05s
+-Reversed10000=0.188s
+-Reversed50000=4.534s
+-Sorted5000=0.005s
+-Sorted10000=0.004s
+-Sorted50000=0.017s
+How do you know?: The fastest for sorted, omega(n)
+
+sort2 uses: Merge sort
+Res:
+-Random5000=0.003s
+-Random10000=0.005s
+-Random50000=0.025s
+-Reversed5000=0.005s
+-Reversed10000=0.007s
+-Reversed50000=0.025s
+-Sorted5000=0.002s
+-Sorted10000=0.005s
+-Sorted50000=0.027s
+How do you know?: For the random ones it was the fastest and the second for sorted.
+
+sort3 uses: Selection sort
+Res:
+-Random5000=0.028s
+-Random10000=0.107s
+-Random50000=2.541s
+-Reversed5000=0.031s
+-Reversed10000=0.107s
+-Reversed50000=2.613s
+-Sorted5000=0.027s
+-Sorted10000=0.097s
+-Sorted50000=2.283s
+How do you know?: the amonut of time are similar to each type of list
+
+//so in comparing the algorithms, we run with time and used user parameter because with it we can see exactly waht amount of time the cpu used for the alg sort
