@@ -30,11 +30,39 @@ Focus on search, sorting algorithms, and complexity:
   comparing candidate pairs and building an acyclic graph (avoiding 
   contradictory "locked" cycles).
 
-## Week4
+## Week 4 – Memory
+Introduction to pointers, memory allocation, and file I/O in C:
+- **Volume** – manipulating a WAV audio file's amplitude by modifying 
+  raw byte values directly in the file header/data.
+- **Filter** – applying image filters (grayscale, sepia, reflection, 
+  box blur) to BMP images through direct pixel/array manipulation.
+- **Recover** – recovering JPEG images from a forensic memory image by 
+  scanning for file signatures (magic numbers) and reconstructing files 
+  byte-by-byte.
 
-## Week5
+## Week 5 – Data Structures
+Introduction to dynamic data structures, memory allocation, and recursion:
+- **Inheritance** – simulating the inheritance of blood types across a 
+  family tree, using structs and recursion to generate and display 
+  successive generations of parents.
+- **Speller** – implementing a high-performance spell checker, using a 
+  data structure of choice (hash table) to load a dictionary and quickly 
+  check words in a text, with a focus on optimizing real-world runtime.
 
-## Week6
+## Week 6 – Python
+Revisiting earlier problem sets in Python, transitioning from C's low-level 
+syntax to a higher-level, more expressive language:
+- **Hello** – printing a simple greeting to the user.
+- **Mario** – rebuilding the pyramid of characters from Week 1, now using 
+  Python's loop and string-formatting constructs.
+- **Cash / Credit** – reimplementing the greedy change-making algorithm 
+  and/or Luhn's algorithm for credit card validation, this time in Python.
+- **Readability** – recalculating the Coleman-Liau readability score, 
+  leveraging Python's simpler string and list handling.
+- **DNA** – identifying a person from a DNA sample by counting the 
+  longest run of consecutive repeats of given STRs (Short Tandem Repeats) 
+  in a sequence, and matching the resulting profile against a CSV database 
+  of known individuals.
 
 ## Week7
 
