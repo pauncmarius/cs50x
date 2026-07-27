@@ -46,25 +46,34 @@ Introduction to dynamic data structures, memory allocation, and recursion:
   family tree, using structs and recursion to generate and display 
   successive generations of parents.
 - **Speller** – implementing a high-performance spell checker, using a 
-  data structure of choice (hash table) to load a dictionary and quickly 
-  check words in a text, with a focus on optimizing real-world runtime.
+  data structure of choice (hash table) to load a dictionary and quickly check words in a text, with a focus on optimizing real-world runtime.
 
 ## Week 6 – Python
 Revisiting earlier problem sets in Python, transitioning from C's low-level 
 syntax to a higher-level, more expressive language:
 - **Hello** – printing a simple greeting to the user.
-- **Mario** – rebuilding the pyramid of characters from Week 1, now using 
-  Python's loop and string-formatting constructs.
+- **Mario** – rebuilding the pyramid of characters from Week 1, now using Python's loop and string-formatting constructs.
 - **Cash / Credit** – reimplementing the greedy change-making algorithm 
   and/or Luhn's algorithm for credit card validation, this time in Python.
 - **Readability** – recalculating the Coleman-Liau readability score, 
   leveraging Python's simpler string and list handling.
 - **DNA** – identifying a person from a DNA sample by counting the 
-  longest run of consecutive repeats of given STRs (Short Tandem Repeats) 
-  in a sequence, and matching the resulting profile against a CSV database 
-  of known individuals.
+  longest run of consecutive repeats of given STRs (Short Tandem Repeats) in a sequence, and matching the resulting profile against a CSV database of known individuals.
 
-## Week7
+## Week 7 – SQL
+Introduction to relational databases and structured queries:
+- **Songs** – writing SQL queries against a SQLite database of Spotify's 
+  top 100 streamed songs of 2018, exploring joins between artists and 
+  songs and analyzing audio features like danceability, energy, and 
+  tempo.
+- **Movies** – writing SQL queries against an IMDb-based database of 
+  movies, directors, actors, and ratings to answer questions involving 
+  joins across multiple related tables.
+- **Fiftyville** – solving a mystery ("who stole the CS50 duck?") by 
+  writing a sequence of SQL queries across various town record tables 
+  (crime reports, interviews, bank records, flight logs, phone calls, 
+  etc.), progressively narrowing down the thief, their escape city, and 
+  their accomplice.
 
 ## Week8
 

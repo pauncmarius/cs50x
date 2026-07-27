@@ -31,7 +31,7 @@ def main():
     #print(txt)
 
     # TODO: Find longest match of each STR in DNA sequence
-    list_columns = list(database[0].keys())[1:] #we take first row extarct the keys from list and pass first key , name
+    list_columns = list(database[0].keys())[1:] #we take first row, extract the keys from list and will pass first key , name
 
     counts = {}
     for string in list_columns:
