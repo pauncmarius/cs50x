@@ -1,0 +1,26 @@
+    Premium German Cars - Specification
+
+    10 HTML Tags Used:
+1. nav
+2. header
+3. main
+4. section
+5. table
+6. tr / th / td
+7. ul / li
+8. img
+9. a
+10. button
+
+    5 CSS Properties Used:
+1. background-color
+2. padding
+3. border-radius
+4. box-shadow
+5. font-size
+
+    JavaScript:
+I used JavaScript to automatically highlight the navbar link that matches the current page, so users always know where they are on the site.
+
+    Bootstrap:
+I used Bootstrap's navbar component to create a responsive navigation bar with a collapsible menu on smaller screens.

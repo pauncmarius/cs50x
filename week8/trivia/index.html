@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            function checkAnswer1(answer, button, feedbackId){
+                if(answer == 'India'){
+                    button.style.backgroundColor = 'green';
+                    document.getElementById(feedbackId).innerHTML = 'Correct!';
+
+                }else{
+                    button.style.backgroundColor = 'red';
+                    document.getElementById(feedbackId).innerHTML = 'Incorrect!';
+                }
+            }
+
+            function checkAnswer2(answer, button, feedbackId){
+                if(answer == 'Pacific'){
+                    button.style.backgroundColor = 'green';
+                    document.getElementById(feedbackId).innerHTML = 'Correct!';
+
+                }else{
+                    button.style.backgroundColor = 'red';
+                    document.getElementById(feedbackId).innerHTML = 'Incorrect!';
+
+                }
+            }
+
+            function checkAnswer3(answer, button, feedbackId){
+                if(answer == 'Asia'){
+                    button.style.backgroundColor = 'green';
+                    document.getElementById(feedbackId).innerHTML = 'Correct!';
+                }else{
+                    button.style.backgroundColor = 'red';
+                    document.getElementById(feedbackId).innerHTML = 'Incorrect!';
+                }
+            }
+
+            function checkAnswer4() {
+                var userAnswer = document.getElementById('answer4').value;
+
+                if (userAnswer == 'Bucharest' || userAnswer == 'Bucuresti') {
+                    document.getElementById('feedback4').innerHTML = 'Correct!';
+                    document.getElementById('feedback4').style.color = 'green';
+                } else {
+                    document.getElementById('feedback4').innerHTML = 'Incorrect';
+                    document.getElementById('feedback4').style.color = 'red';
+                }
+            }
+            // TODO: Add code to check answers to questions
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <h3> What is the largest country in terms of population in the world? </h3>
+                <button onclick="checkAnswer1('China', this, 'feedback1')">China</button>
+                <button onclick="checkAnswer1('India', this, 'feedback1')">India</button>
+                <button onclick="checkAnswer1('Russia', this, 'feedback1')">Russia</button>
+                <button onclick="checkAnswer1('SUA', this,  'feedback1')">SUA</button>
+                <p id="feedback1"></p>
+
+                <h3> What is the largest ocean in the world? </h3>
+                <button onclick="checkAnswer2('Pacific', this,  'feedback2')">Pacific</button>
+                <button onclick="checkAnswer2('Atlantic', this, 'feedback2')">Atlantic</button>
+                <button onclick="checkAnswer2('Arctic', this, 'feedback2')">Arctic</button>
+                <button onclick="checkAnswer2('Indian', this, 'feedback2')">Indian</button>
+                <p id="feedback2"></p>
+
+                <h3> What is the largest continent in the world? </h3>
+                <button onclick="checkAnswer3('Asia', this, 'feedback3')">Asia</button>
+                <button onclick="checkAnswer3('Africa', this, 'feedback3')">Africa</button>
+                <button onclick="checkAnswer3('Europe', this, 'feedback3')">Europe</button>
+                <button onclick="checkAnswer3('North America', this, 'feedback3')">North America</button>
+                <p id="feedback3"></p>
+
+
+                <!-- TODO: Add multiple choice question here -->
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <h3 id="question4">What is the capital of Romania?</h3>
+                <input id="answer4" type="text">
+                <button onclick="checkAnswer4()">Submit</button>
+                <p id="feedback4"></p>
+                <!-- TODO: Add free response question here -->
+            </div>
+        </div>
+    </body>
+</html>

@@ -75,7 +75,10 @@ Introduction to relational databases and structured queries:
   etc.), progressively narrowing down the thief, their escape city, and 
   their accomplice.
 
-## Week8
+## Week 8 – HTML, CSS, JavaScript
+Introduction to front-end web development, building static and interactive pages using the three core web languages:
+- **Homepage** – building a personal website with at least four linked HTML pages, using ten or more distinct HTML tags, a custom `styles.css` with at least five selectors and five properties, an integrated Bootstrap component, and a JavaScript-driven interactive feature, all responsive across mobile and desktop.
+- **Trivia** – designing a single-page trivia quiz with a multiple-choice section and a free-response section, using JavaScript event listeners to validate answers and dynamically change button/input colors and feedback text based on correctness.
 
 ## Week9
 
