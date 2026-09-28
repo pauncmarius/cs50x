@@ -80,6 +80,9 @@ Introduction to front-end web development, building static and interactive pages
 - **Homepage** – building a personal website with at least four linked HTML pages, using ten or more distinct HTML tags, a custom `styles.css` with at least five selectors and five properties, an integrated Bootstrap component, and a JavaScript-driven interactive feature, all responsive across mobile and desktop.
 - **Trivia** – designing a single-page trivia quiz with a multiple-choice section and a free-response section, using JavaScript event listeners to validate answers and dynamically change button/input colors and feedback text based on correctness.
 
-## Week9
+## Week9 - Flask
+Introduction to server-side web development using Python, Flask, HTML, CSS, Jinja, and SQL:
+- **Birthdays** – building a web application to record and display people’s birthdays. Users can add a name, birth month, and day through a form; the app stores the entries in a SQLite database and displays them in a table. This project introduces Flask routes, form handling, SQL queries, and dynamically rendered HTML templates.
+- **Finance** – building a stock-trading simulator where users can register and log in, look up stock prices, buy and sell shares, and view their portfolio and transaction history. The app uses Flask, Jinja templates, and SQLite to manage accounts and transactions. As a personal touch, I added a profile page that lets users change their username and password, with validation checks.
 
 ## Week10
